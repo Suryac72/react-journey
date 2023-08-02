@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-learning/feature-calculator": [
+        "libs/feature-calculator/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

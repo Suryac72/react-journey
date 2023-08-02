@@ -2,11 +2,11 @@
 import styles from './app.module.css';
 
 import NxWelcome from './nx-welcome';
-
+import {FeatureCalculator} from '@react-learning/feature-calculator';
 export function App() {
   return (
     <div>
-      <NxWelcome title="calculator" />
+      <FeatureCalculator/>
     </div>
   );
 }
