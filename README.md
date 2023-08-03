@@ -65,4 +65,4 @@ Nx comes with local caching already built-in (check your `nx.json`). On CI you m
 - [Follow us on Twitter](https://twitter.com/nxdevtools)
 
 ## Deployed App Links:
--[calculator-app](https://surya-calculator-app.netlify.app/)
+- [calculator-app](https://surya-calculator-app.netlify.app/)
