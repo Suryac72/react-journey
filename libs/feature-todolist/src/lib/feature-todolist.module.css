@@ -149,3 +149,32 @@
   border-radius: 3px;
   background: var(--gold, #ffd700);
 }
+
+/* feature-todolist.module.css */
+/* ... (other styles) */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
