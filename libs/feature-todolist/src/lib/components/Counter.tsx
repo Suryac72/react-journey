@@ -1,6 +1,6 @@
 
 interface CounterProps {
-  counterText: string;
+  counterText: number;
   className ?: string;
 }
 const Counter = (counterProps: CounterProps) => {

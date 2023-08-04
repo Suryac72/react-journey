@@ -1,17 +1,21 @@
 import style from '../feature-todolist.module.css';
+import { listItem } from './Card';
 
 interface ButtonProps {
   buttonText?: string;
   className?: string;
   isDelete?: boolean;
   isEdit?: boolean;
+  onClick : (listItem : any) => void;
+  listItems : string;
+  index ?: number;
+  disabled ?: boolean;
 }
 const Button = (buttonProps: ButtonProps) => {
-  console.log(buttonProps);
   return !buttonProps.isDelete ? (
-    <button className={style.button}>{buttonProps.buttonText}</button>
+    <button onClick={()=>buttonProps.onClick(buttonProps.listItems)}className={style.button}>{buttonProps.buttonText}</button>
   ) : (
-    <svg
+    <svg onClick={()=>buttonProps.onClick(buttonProps.onClick(buttonProps.index))}
       xmlns="http://www.w3.org/2000/svg"
       width="30"
       height="30"
