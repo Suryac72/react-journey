@@ -7,7 +7,11 @@
 
 ## Start the app
 
-To start the development server run `nx serve calculator`. Open your browser and navigate to http://localhost:4200/. Happy coding!
+To start the development server run :
+- `nx serve calculator`
+- `nx serve todo-list`
+
+Open your browser and navigate to http://localhost:4200/. Happy coding!
 
 
 ## Generate code
@@ -66,3 +70,5 @@ Nx comes with local caching already built-in (check your `nx.json`). On CI you m
 
 ## Deployed App Links:
 - [calculator-app](https://surya-calculator-app.netlify.app/)
+- [todolist-app](https://surya-todo-list.netlify.app/)
+  
